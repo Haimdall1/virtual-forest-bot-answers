@@ -9,7 +9,7 @@ export const Hero = () => {
             AI Powered Small Business Solutions
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Never miss a call again. Haimdall's AI assistants handle your calls 24/7 with human-like conversation.
+            AI driven solutions for small businesses and contractors
           </p>
           <Button className="bg-forest hover:bg-forest/90 text-lg px-8 py-6">
             Start Free Trial
