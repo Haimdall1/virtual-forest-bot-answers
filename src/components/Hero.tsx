@@ -23,8 +23,17 @@ export const Hero = () => {
             </p>
           </div>
           
-          <Button className="bg-forest hover:bg-forest/90 text-lg px-8 py-6">
-            Start Free Trial
+          <Button 
+            className="bg-forest hover:bg-forest/90 text-lg px-8 py-6"
+            asChild
+          >
+            <a 
+              href="https://apps.apple.com/app/your-app-id" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Download from App Store
+            </a>
           </Button>
         </div>
       </div>
