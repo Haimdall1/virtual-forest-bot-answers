@@ -6,7 +6,7 @@ export const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center animate-fade-up">
           <h1 className="text-5xl md:text-6xl font-bold text-forest mb-6">
-            Your AI-Powered Virtual Reception
+            AI Powered Small Business Solutions
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Never miss a call again. Haimdall's AI assistants handle your calls 24/7 with human-like conversation.
