@@ -1,4 +1,4 @@
-import { Phone, Clock, Shield } from "lucide-react";
+import { Phone, Clock, Shield, Receipt } from "lucide-react";
 
 const features = [
   {
@@ -16,6 +16,11 @@ const features = [
     title: "Secure & Reliable",
     description: "Enterprise-grade security with 99.9% uptime guarantee for your peace of mind.",
   },
+  {
+    icon: Receipt,
+    title: "AI Invoicing & Management",
+    description: "AI driven invoicing and workload management for streamlined business operations.",
+  },
 ];
 
 export const Overview = () => {
@@ -25,7 +30,7 @@ export const Overview = () => {
         <h2 className="text-4xl font-bold text-center text-forest mb-12">
           Why Choose Haimdall?
         </h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature) => (
             <div key={feature.title} className="p-6 rounded-lg border border-gray-100 hover:border-forest/20 transition-colors">
               <feature.icon className="w-12 h-12 text-forest mb-4" />

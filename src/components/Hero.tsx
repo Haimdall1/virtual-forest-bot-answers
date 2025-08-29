@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Receipt } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -12,16 +11,6 @@ export const Hero = () => {
           <p className="text-lg md:text-xl text-gray-600 mb-8">
             AI driven solutions for small businesses and contractors
           </p>
-          
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 mb-8 border border-forest/20 shadow-lg max-w-md mx-auto">
-            <div className="flex items-center justify-center gap-3 mb-2">
-              <Receipt className="h-6 w-6 text-forest" />
-              <h3 className="text-lg font-semibold text-forest">Featured Solution</h3>
-            </div>
-            <p className="text-gray-700">
-              AI driven invoicing and workload management
-            </p>
-          </div>
           
           <Button 
             className="bg-forest hover:bg-forest/90 text-lg px-8 py-6"
