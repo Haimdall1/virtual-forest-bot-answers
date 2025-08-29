@@ -10,7 +10,7 @@ export const Footer = () => {
             </p>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Product</h4>
+            <h4 className="font-semibold mb-4">Products</h4>
             <ul className="space-y-2">
               <li><a href="#overview" className="hover:text-forest-light">Overview</a></li>
               <li><a href="#pricing" className="hover:text-forest-light">Pricing</a></li>
