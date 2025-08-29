@@ -4,9 +4,9 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Haimdall</h3>
+            <h3 className="text-xl font-bold mb-4">Haimdall AI Solutions</h3>
             <p className="text-forest-light/80">
-              AI-powered virtual reception services for modern businesses.
+              Enabling access to AI solutions
             </p>
           </div>
           <div>
@@ -34,7 +34,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="border-t border-forest-light/20 mt-8 pt-8 text-center text-forest-light/60">
-          <p>&copy; {new Date().getFullYear()} Haimdall. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Haimdall AI Solutions. All rights reserved.</p>
         </div>
       </div>
     </footer>
