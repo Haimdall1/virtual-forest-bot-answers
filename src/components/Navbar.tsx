@@ -8,7 +8,6 @@ export const Navbar = () => {
           <div className="text-2xl font-bold text-forest">Haimdall AI Solutions</div>
           <div className="hidden md:flex items-center space-x-8">
             <a href="#overview" className="text-gray-600 hover:text-forest">Overview</a>
-            <a href="#testimonials" className="text-gray-600 hover:text-forest">Testimonials</a>
             <a href="#pricing" className="text-gray-600 hover:text-forest">Pricing</a>
             <a href="#faq" className="text-gray-600 hover:text-forest">FAQ</a>
           </div>
