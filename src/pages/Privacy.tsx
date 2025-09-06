@@ -30,7 +30,7 @@ const Privacy = () => {
               <h3 className="text-xl font-semibold text-forest mb-3">Personal Information</h3>
               <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-4">
                 <li><strong>Account Information:</strong> Name, email address, phone number, business name, business address, business specialty</li>
-                <li><strong>Authentication Data:</strong> Login credentials, verification codes (managed through AWS Cognito)</li>
+                <li><strong>Authentication Data:</strong> Login credentials, verification codes (managed through secure SaaS providers)</li>
                 <li><strong>Billing Information:</strong> Payment details, billing addresses, transaction history</li>
               </ul>
 
